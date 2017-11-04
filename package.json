@@ -1,0 +1,27 @@
+{
+  "name": "parse-para",
+  "version": "0.1.1",
+  "description": "Parser",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "babel --stage 0 lib/ --out-dir dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parakhod/parse-para.git"
+  },
+  "keywords": [
+    "parser"
+  ],
+  "author": "Ribera Digital Studio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parakhod/parse-para/issues"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "homepage": "https://github.com/parakhod/parse-para#readme"
+}
