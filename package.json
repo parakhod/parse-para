@@ -1,6 +1,6 @@
 {
   "name": "parse-para",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Parser",
   "main": "dist/index.js",
   "scripts": {
@@ -23,5 +23,8 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1"
   },
-  "homepage": "https://github.com/parakhod/parse-para#readme"
+  "homepage": "https://github.com/parakhod/parse-para#readme",
+  "dependencies": {
+    "@types/js-base64": "^2.3.0"
+  }
 }
